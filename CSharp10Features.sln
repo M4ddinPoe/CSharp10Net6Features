@@ -21,11 +21,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Features.RecordType
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "X. FieldKeyword", "X. FieldKeyword", "{42992C3C-EBC2-4FE7-A720-404CE3C21DEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldKeyword", "FieldKeyword\FieldKeyword.csproj", "{526B1818-E0B3-4B2A-95FA-7C2D6379CD49}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Features.FieldKeyword", "CSharp10Features.FieldKeyword\CSharp10Features.FieldKeyword.csproj", "{526B1818-E0B3-4B2A-95FA-7C2D6379CD49}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. ConstantInterpolatedStrings", "05. ConstantInterpolatedStrings", "{BE308735-C3A4-4C9F-8F88-155C0CEB7A99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContantInterpolatedStrings", "ContantInterpolatedStrings\ContantInterpolatedStrings.csproj", "{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Features.ContantInterpolatedStrings", "CSharp10Features.ContantInterpolatedStrings\CSharp10Features.ContantInterpolatedStrings.csproj", "{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06. AttributesSupportGenerics", "06. AttributesSupportGenerics", "{E7AC359A-49AC-4FC8-AECC-D119AA5B5D80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributesSupportGenerics", "AttributesSupportGenerics\AttributesSupportGenerics.csproj", "{F05CD257-9551-41BF-B0E5-2A904807E80D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07. LambdaImprovements", "07. LambdaImprovements", "{D11A108D-C287-4912-9724-DB22500A834C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaImprovements", "LambdaImprovements\LambdaImprovements.csproj", "{E37EF089-4B85-4FAD-961F-57ACE10431F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08. ExtendedPropertyPatterns", "08. ExtendedPropertyPatterns", "{E426855E-A93D-4BF3-BB1A-710DB0723628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtendedPropertyPatterns", "ExtendedPropertyPatterns\ExtendedPropertyPatterns.csproj", "{A125A9E8-EE4D-4DE0-A7F0-97CBD02CD8E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +73,18 @@ Global
 		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F05CD257-9551-41BF-B0E5-2A904807E80D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F05CD257-9551-41BF-B0E5-2A904807E80D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F05CD257-9551-41BF-B0E5-2A904807E80D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F05CD257-9551-41BF-B0E5-2A904807E80D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37EF089-4B85-4FAD-961F-57ACE10431F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37EF089-4B85-4FAD-961F-57ACE10431F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37EF089-4B85-4FAD-961F-57ACE10431F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37EF089-4B85-4FAD-961F-57ACE10431F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A125A9E8-EE4D-4DE0-A7F0-97CBD02CD8E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A125A9E8-EE4D-4DE0-A7F0-97CBD02CD8E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A125A9E8-EE4D-4DE0-A7F0-97CBD02CD8E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A125A9E8-EE4D-4DE0-A7F0-97CBD02CD8E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,5 +98,8 @@ Global
 		{6B76953B-E016-43B6-8B74-016921CC2191} = {DEF974F7-8DE8-4571-877F-52EDBA653273}
 		{526B1818-E0B3-4B2A-95FA-7C2D6379CD49} = {42992C3C-EBC2-4FE7-A720-404CE3C21DEA}
 		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2} = {BE308735-C3A4-4C9F-8F88-155C0CEB7A99}
+		{F05CD257-9551-41BF-B0E5-2A904807E80D} = {E7AC359A-49AC-4FC8-AECC-D119AA5B5D80}
+		{E37EF089-4B85-4FAD-961F-57ACE10431F4} = {D11A108D-C287-4912-9724-DB22500A834C}
+		{A125A9E8-EE4D-4DE0-A7F0-97CBD02CD8E0} = {E426855E-A93D-4BF3-BB1A-710DB0723628}
 	EndGlobalSection
 EndGlobal
