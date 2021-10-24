@@ -18,10 +18,10 @@ public record Person(string FirstName, string LastName)
 public record Client(string FirstName, string LastName, string EMail) 
     : Person(FirstName, LastName)
 {
-    public override string ToString()
-    {
-        return $"Hi my name is: {FirstName} {LastName}";
-    }
+    // public override string ToString()
+    // {
+    //     return $"Hi my name is: {FirstName} {LastName}";
+    // }
 
     public sealed override string ToFullName()
     {
@@ -31,8 +31,8 @@ public record Client(string FirstName, string LastName, string EMail)
 
 public record Customer(string FirstName, string LastName, string EMail) : Client(FirstName, LastName, EMail)
 {
-    public override string ToFullName()
-    {
-        return $"Hello, I'am {FirstName} {LastName} and you can reach me through: {EMail}";
-    }
+    // public override string ToFullName()
+    // {
+    //     return $"Hello, I'am {FirstName} {LastName} and you can reach me through: {EMail}";
+    // }
 }

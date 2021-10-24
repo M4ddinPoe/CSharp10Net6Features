@@ -9,15 +9,23 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Features.FileScoped
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Features.NullParameterChecking", "CSharp10Features.NullParameterChecking\CSharp10Features.NullParameterChecking.csproj", "{EB086010-1802-40EA-943D-54D2D0D29278}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. NullParameterChecking", "1. NullParameterChecking", "{4EB4811C-6493-47A0-9115-BA8469C998F4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01. NullParameterChecking", "01. NullParameterChecking", "{4EB4811C-6493-47A0-9115-BA8469C998F4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. RecordStructs", "2. RecordStructs", "{DBB87723-52D2-438D-9C2A-F99FC0538D6E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02. RecordStructs", "02. RecordStructs", "{DBB87723-52D2-438D-9C2A-F99FC0538D6E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Features.RecordStructs", "CSharp10Features.RecordStructs\CSharp10Features.RecordStructs.csproj", "{0F48E90C-5860-4B15-8933-EDA3CC1C667E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. RecordTypesSealToString", "3. RecordTypesSealToString", "{DEF974F7-8DE8-4571-877F-52EDBA653273}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03. RecordTypesSealToString", "03. RecordTypesSealToString", "{DEF974F7-8DE8-4571-877F-52EDBA653273}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharp10Features.RecordTypesSealToString", "CSharp10Features.RecordTypesSealToString\CSharp10Features.RecordTypesSealToString.csproj", "{6B76953B-E016-43B6-8B74-016921CC2191}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "X. FieldKeyword", "X. FieldKeyword", "{42992C3C-EBC2-4FE7-A720-404CE3C21DEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldKeyword", "FieldKeyword\FieldKeyword.csproj", "{526B1818-E0B3-4B2A-95FA-7C2D6379CD49}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05. ConstantInterpolatedStrings", "05. ConstantInterpolatedStrings", "{BE308735-C3A4-4C9F-8F88-155C0CEB7A99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContantInterpolatedStrings", "ContantInterpolatedStrings\ContantInterpolatedStrings.csproj", "{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +53,14 @@ Global
 		{6B76953B-E016-43B6-8B74-016921CC2191}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6B76953B-E016-43B6-8B74-016921CC2191}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6B76953B-E016-43B6-8B74-016921CC2191}.Release|Any CPU.Build.0 = Release|Any CPU
+		{526B1818-E0B3-4B2A-95FA-7C2D6379CD49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526B1818-E0B3-4B2A-95FA-7C2D6379CD49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526B1818-E0B3-4B2A-95FA-7C2D6379CD49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526B1818-E0B3-4B2A-95FA-7C2D6379CD49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,5 +72,7 @@ Global
 		{EB086010-1802-40EA-943D-54D2D0D29278} = {4EB4811C-6493-47A0-9115-BA8469C998F4}
 		{0F48E90C-5860-4B15-8933-EDA3CC1C667E} = {DBB87723-52D2-438D-9C2A-F99FC0538D6E}
 		{6B76953B-E016-43B6-8B74-016921CC2191} = {DEF974F7-8DE8-4571-877F-52EDBA653273}
+		{526B1818-E0B3-4B2A-95FA-7C2D6379CD49} = {42992C3C-EBC2-4FE7-A720-404CE3C21DEA}
+		{7FDC4092-2EB3-4CAB-83CC-BAEDFF6FC1D2} = {BE308735-C3A4-4C9F-8F88-155C0CEB7A99}
 	EndGlobalSection
 EndGlobal
