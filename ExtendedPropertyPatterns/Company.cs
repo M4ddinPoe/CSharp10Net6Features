@@ -10,7 +10,7 @@ namespace ExtendedPropertyPatterns
         public Company(string name, Company subCompany)
         {
             this.Name = name;
-            this.SubCompany = this.SubCompany;
+            this.SubCompany = subCompany;
         }
         
         public string Name { get; set; }
