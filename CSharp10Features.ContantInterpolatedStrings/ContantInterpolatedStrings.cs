@@ -1,4 +1,4 @@
-﻿namespace ContantInterpolatedStrings;
+﻿namespace CSharp10Features.ContantInterpolatedStrings;
 
 public class ContantInterpolatedStrings
 {

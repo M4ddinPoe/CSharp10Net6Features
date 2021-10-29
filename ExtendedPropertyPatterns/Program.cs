@@ -1,4 +1,6 @@
-﻿namespace ExtendedPropertyPatterns
+﻿using CSharp10Features.ExtendedPropertyPatterns;
+
+namespace ExtendedPropertyPatterns
 {
     internal class Program
     {

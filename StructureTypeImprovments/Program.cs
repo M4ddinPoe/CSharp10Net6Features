@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using StructureTypeImprovments;
+using CSharp10Features.StructureTypeImprovments;
 
 Console.WriteLine("Hello, World!");
 
