@@ -2,10 +2,11 @@ namespace CSharp10Features.StructureTypeImprovments
 {
     public struct Rectangle
     {
+        // Default Contructor war vor C#10 nicht möglich
         public Rectangle()
         {
-            this.Height = 0;
-            this.Width = 0;
+            Height = 0;
+            Width = 0;
         }
 
         public Rectangle(int height, int width)

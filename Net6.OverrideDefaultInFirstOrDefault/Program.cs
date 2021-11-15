@@ -1,5 +1,5 @@
 ﻿var names = new List<string> { "Max", "Lea", "Tom", "Isa" };
-string longName = names.FirstOrDefault(name => name.Length > 3, "- na -");
+string name = names.FirstOrDefault(name => name == "Maddin", "- na -");
 
-Console.WriteLine(longName);
+Console.WriteLine(name);
 

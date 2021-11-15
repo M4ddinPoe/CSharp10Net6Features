@@ -1,5 +1,8 @@
 ﻿int chunkNumber = 1;
-foreach (int[] chunk in Enumerable.Range(0, 9).Chunk(3))
+
+var longEnumerable = Enumerable.Range(0, 7);
+
+foreach (int[] chunk in longEnumerable.Chunk(3))
 {
     Console.WriteLine($"Chunk {chunkNumber++}");
     foreach (var item in chunk)

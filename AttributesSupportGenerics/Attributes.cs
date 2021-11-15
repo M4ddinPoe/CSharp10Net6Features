@@ -1,7 +1,6 @@
-﻿using System;
+﻿namespace CSharp10Features.AttributesSupportGenerics;
 
-namespace CSharp10Features.AttributesSupportGenerics;
-
+// Vor C# 10 könnte man mit Typen nur arbeiten wenn diese im Konstruktor übergeben wurden
 public class OldAttribute : Attribute
 {
     public OldAttribute(Type type)
@@ -10,7 +9,8 @@ public class OldAttribute : Attribute
     }
 }
 
+// C# 10 erlaubt generische Attribute
 public class NewAttribute<T> : Attribute
 {
-    public T MyType { get; set; }
+    public T My { get; set; }
 }

@@ -2,14 +2,14 @@
 {
     internal class Point
     {
-        public int X { get; init; }
-
         public Point(int x, int y, int z)
         {
             X=x;
             Y=y;
             Z=z;
         }
+
+        public int X { get; init; }
 
         public int Y { get; init; }
 
