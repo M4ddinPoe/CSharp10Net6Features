@@ -26,7 +26,7 @@ var configuration = new ConfigurationManager();
 var options = new MyOptions();
 
 // This will throw if the section isn't configured
-configuration.GetRequiredSection("MyOptions").Bind(options);
+configuration.GetRequiredSection("MyForgottenOptions").Bind(options);
 
 app.Run();
 

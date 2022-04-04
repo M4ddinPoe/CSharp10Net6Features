@@ -1,6 +1,6 @@
 ﻿int chunkNumber = 1;
 
-var longEnumerable = Enumerable.Range(0, 7);
+var longEnumerable = Enumerable.Range(0, 8);
 
 foreach (int[] chunk in longEnumerable.Chunk(3))
 {

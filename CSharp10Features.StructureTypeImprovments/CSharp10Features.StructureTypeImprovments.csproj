@@ -6,7 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 	<LangVersion>10</LangVersion>
-	<!--<LangVersion>preview</LangVersion>-->
   </PropertyGroup>
 
 </Project>

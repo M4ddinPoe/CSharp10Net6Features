@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-PriorityQueue<string, int> queue = new PriorityQueue<string, int>();
+﻿PriorityQueue<string, int> queue = new PriorityQueue<string, int>();
 queue.Enqueue("Item A", 0);
 queue.Enqueue("Item B", 60);
 queue.Enqueue("Item C", 2);

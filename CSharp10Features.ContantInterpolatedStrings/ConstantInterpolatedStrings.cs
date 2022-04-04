@@ -1,6 +1,6 @@
-﻿namespace CSharp10Features.ContantInterpolatedStrings;
+﻿namespace CSharp10Features.ConstantInterpolatedStrings;
 
-public class ContantInterpolatedStrings
+public class ConstantInterpolatedStrings
 {
     private const string BaseUrl = "https://www.5minds.de/";
 

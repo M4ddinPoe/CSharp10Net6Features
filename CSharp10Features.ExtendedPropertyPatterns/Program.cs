@@ -9,8 +9,14 @@ namespace ExtendedPropertyPatterns
             var subCompany = new Company("Google");
             var company = new Company("Alphabet", subCompany);
 
-            // if (company is { SubCompany: { Name: "Google" } })
-            if (company is { SubCompany.Name: "Google" })
+            // C#9
+            if (company is { SubCompany: { Department: { Team: { TeamLead: {Name: "Leader"}}}}})
+            {
+                // ...
+            }
+
+            // C#10
+            if (company is { SubCompany.Department.Team.TeamLead.Name: "Leader" })
             {
                 // ...
             }
